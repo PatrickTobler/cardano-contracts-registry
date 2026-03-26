@@ -34,7 +34,8 @@ const schema = Joi.object({
     "GAMING",
     "TOKEN",
     "ORACLE",
-    "TOOLS"
+    "TOOLS",
+    "AI"
   ),
   description: Joi.string().max(140),
   contracts: Joi.array().items(contractSchema).min(1),
